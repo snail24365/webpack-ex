@@ -29,7 +29,7 @@ module.exports = {
       }
     ]
   },
-
+  devtool: 'eval-source-map',
   plugins: [
     new HtmlPlugin({
       template: './index.html'
